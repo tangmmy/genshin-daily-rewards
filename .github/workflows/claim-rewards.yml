@@ -2,7 +2,7 @@ name: Claim Genshin Daily Rewards
 on:   
   workflow_dispatch:
   schedule:
-    - cron: '*/10 * * * *'  
+    - cron: '0 8 * * *'  
 jobs:
   claim-rewards:
     runs-on: ubuntu-latest
@@ -19,3 +19,5 @@ jobs:
       
     - name: Run Scipt
       run: npm run script
+      env:
+        GENSHIN_COOKIES: ${{ secrets.GENSHIN_COOKIES }}
