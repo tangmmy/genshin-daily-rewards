@@ -4,11 +4,7 @@ This is an automated script to claim daily rewards of Genshin Impact from Hoyola
 
 ## Features
 
-- Track daily login rewards
-- Set reminders for daily tasks
-- View history of collected rewards
-
-
+- Claim daily rewards from Hoyolab
 
 ## Usage
 
@@ -31,7 +27,7 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project no license
 
 ## Contact
 
