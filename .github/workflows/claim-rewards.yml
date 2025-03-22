@@ -1,7 +1,7 @@
 name: Claim Genshin Daily Rewards
 on:
   schedule:
-    - cron: '*/5 * * * *'  
+    - cron: '*/10 * * * *'  
 jobs:
   claim-rewards:
     runs-on: ubuntu-latest
